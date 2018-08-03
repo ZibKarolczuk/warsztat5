@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class TestController {
+public class HomeController {
 
-    @GetMapping
+    @GetMapping("")
     @ResponseBody
-    public String test(){
-        return "test konfiguracji projektu ąóąćęĘŻ";
+    public String home(){
+        return "Server ready";
     }
 
 }
