@@ -1,5 +1,6 @@
 .idea/
 warsztat5.iml
+target/
 
 # Compiled class file
 *.class
